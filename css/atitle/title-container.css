@@ -1,0 +1,39 @@
+.title__profile{
+    width: 30vw;
+}
+.title__subsection{
+    font-weight: 500;
+    font-size: var(--txtFontSize);
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+    .title{
+        padding: 1rem 0;
+    }
+    .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 4rem;
+    }
+    .title__profile{
+        width: 150px;
+        height: 150px;
+    }
+}
+/*Mobile*/
+@media (min-width: 992px) {
+    .title__profile{
+        width: 350px;
+        height: 350px;
+    }
+    .title__bio{
+        font-size: 3rem;
+        padding: 3rem 0 1rem;
+        margin: 0;
+    }
+    .title__subsection{
+        font-size: 1.4rem;
+    }
+}

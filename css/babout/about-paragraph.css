@@ -1,0 +1,13 @@
+.about__paragraph{
+    font-size: var(--txtFontSize);
+}
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+    
+}
+/*Mobile*/
+@media (min-width: 425px) {
+
+}

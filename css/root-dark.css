@@ -1,0 +1,25 @@
+
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+
+   --colorFondo: #023859;
+   --colorFondoTxt: #052026;
+   --colorLink: #000;
+
+   --txtTitle: #C2E5F2;
+   --txtFont: #C2E5F2;
+   --txtFontTarget: #125259;
+   --txtResalt: ;
+
+   --btnBg: #2E9AA6;
+   --txtFontSize: 1.1rem;
+   /* MENU */
+   --menuBg: rgba(42, 122, 228, 0.2);
+   --menuBgPc: #002c47cc;
+   --menuColor: #023859;
+   --menuColorText: #C2E5F2;
+
+   --iconColor: #2a7ae4;
+}

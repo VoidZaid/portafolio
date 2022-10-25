@@ -1,0 +1,18 @@
+.hobbies{
+    padding: 0 0 4rem;
+    padding: 2rem 0;
+}
+.hobbies__title{
+    text-align: center;
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+    
+}
+/*Mobile*/
+@media (min-width: 992px) {
+    .hobbies{
+        padding: 1.5rem 0;
+    }
+}

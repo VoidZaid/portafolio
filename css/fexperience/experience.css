@@ -1,0 +1,16 @@
+.experience{
+    padding: 2rem 0 0;
+    /* width: 100%; */
+}
+.experience__section__title{
+    text-align: center;
+    /* font-weight: 600; */
+}
+/*Tablet*/
+@media (min-width: 768px) {
+    
+}
+/*Mobile*/
+@media (min-width: 425px) {
+
+}

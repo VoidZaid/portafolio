@@ -1,0 +1,29 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --colorFondo: #F5F5F5;
+   --colorFondoTxt: #daf2fd;
+   --colorLink: #000;
+
+   --txtTitle: #464646;
+   --txtFont: #464646;
+   --txtFontTarget: #464646;
+   --txtResalt: #333;
+
+   --btnBg: #2a7ae4;
+   --btnBgHover: #002a7d;
+   --txtFontSize: 1.1rem;
+   /* MENU */
+   --menuBg: rgba(42, 122, 228, 0.2);
+   --menuBgPc: #f5f5f5cc;
+   --menuColor: #2a7ae4;
+   --menuColorText: #daf2fd;
+
+   --iconColor: #2a7ae4;
+}

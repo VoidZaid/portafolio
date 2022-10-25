@@ -1,0 +1,16 @@
+.about{
+    background-color: var(--colorFondoTxt);
+    padding: 2rem 0;
+}
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+    
+}
+/*Mobile*/
+@media (min-width: 992px) {
+    .about__container{
+        padding-right: 30vw;
+    }
+}

@@ -1,0 +1,25 @@
+.title__network{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+.title__network__item > a{
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: var(--txtResalt);
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+    
+}
+/*Mobile*/
+@media (min-width: 992px) {
+    .title__network{
+        justify-content: flex-start;
+    }
+    .title__network a{
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,62 @@
+*{
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: var(--txtFont);
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    box-sizing: border-box;
+    background-color: var(--colorFondo) ;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1;
+    max-width: 1250px;
+    /* width: 100vw; */
+    /* overflow: hidden; */
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--colorLink);
+}
+
+
+.container{
+    margin: 0 1rem;
+}
+.list-icon{
+    list-style:circle;
+    /* font-weight: bold; */
+}
+.title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* .tudo{
+    width: 100vw;
+    max-width: calc(100vw - 450px);
+    overflow: hidden;
+} */
+.icon{
+    /* color: var(--btnBg); */
+    color: var(--iconColor);
+    font-size: 2rem;
+}
+@media screen and (min-width: 768px) {
+    .container{
+        margin: 0 2rem;
+        /* max-width: 500px; */
+    }
+}
+@media screen and (min-width: 992px) {
+    .container{
+        margin: 0 4rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+}

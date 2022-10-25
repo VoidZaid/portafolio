@@ -1,0 +1,35 @@
+.formcontato{
+    padding: 2rem 0;
+    background-color: var(--colorFondoTxt);
+}
+.formcontato__contacto{
+    margin: 0 2rem;
+}
+.formcontato--esquerda{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 992px) {
+    .formcontato{
+        height: 500px;
+        padding: 5rem 0;
+    }
+    .formcontato__contacto{
+        display: flex;
+        justify-content: space-between;
+        /* margin: 0; */
+    }
+    .formcontato--esquerda{
+        display: block;
+        width: 35%;
+        height: 500px;
+
+        background-image: url("../../assets/contact_image.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

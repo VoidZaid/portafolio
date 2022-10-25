@@ -1,0 +1,20 @@
+
+/*Sección Skills*/
+.skills{
+    padding: 2rem 0;
+    /* max-width: 750px;footer__rodape */
+}
+.skills__title{
+    text-align: center;
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+    
+}
+/*Mobile*/
+@media (min-width: 992px) {
+    .skills{
+        padding: 1.5rem 0;
+    }
+}

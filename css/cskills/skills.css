@@ -1,0 +1,38 @@
+.skills__line{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.skills__box{
+    width: calc(50% - .5rem);
+    max-width: 300px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: white;
+}
+.skills__name{
+    font-weight: bold;
+    margin-top: 1rem;
+    color: var(--txtFontTarget);
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+    .skills__line{
+        gap: 1.5rem;
+    }
+}
+/*Mobile*/
+@media (min-width: 992px) {
+    .skills__line{
+        max-width: initial;
+    }
+    .skills__box{
+        max-width: calc(25% - 1.2rem);
+    }
+}

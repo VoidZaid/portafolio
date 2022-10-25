@@ -1,0 +1,19 @@
+.formcontato__subtext{
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .formcontato__text{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .formcontato__text{
+        width: 65%;
+        margin: 0 4rem;
+    }
+}

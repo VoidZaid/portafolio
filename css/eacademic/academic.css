@@ -1,0 +1,16 @@
+.academic{
+    margin: 2rem 0 0;
+    padding: 2rem 0;
+    background-color: var(--colorFondoTxt);
+}
+.academic__title{
+    text-align: center;
+}
+/*Tablet*/
+@media (min-width: 768px) {
+    
+}
+/*Mobile*/
+@media (min-width: 425px) {
+
+}
