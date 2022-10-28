@@ -26,4 +26,9 @@ coloque nas sessões indicadas*/
    --menuColorText: #daf2fd;
 
    --iconColor: #2a7ae4;
+
+   --errMessage : #C94E4D;
+   --errMessageTxt : #000;
+   --errIcon: #C94E4D;
+   --scsIcon: #14ef4b;
 }

@@ -22,4 +22,7 @@
    --menuColorText: #C2E5F2;
 
    --iconColor: #2a7ae4;
+
+   --errMessage : #e42a49;
+   --errMessageTxt : inherit;
 }

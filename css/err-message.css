@@ -1,0 +1,48 @@
+.formcontato__err-message{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding: .5rem 0 .5rem 2rem;
+    margin: .5rem 0 0;
+    border-radius: .2rem;
+
+    /* text-align: center; */
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: var(--errMessage);
+    color: var(--errMessageTxt);
+}
+.formcontato__err-message span{
+    position: absolute;
+    left: .5rem;
+    top: 50%;
+    color: inherit;
+    transform: translateY(-50%);
+}
+.formcontato__err-message b{
+    color: inherit;
+    font-weight: 700;
+}
+
+.formcontato__input-message{
+    margin: 0;
+    position: absolute;
+    top: .8rem;
+    left: 0;
+    z-index: 100;
+
+    font-size: .8rem;
+    font-weight: 700;
+}
+.formcontato__input__icon-err{
+    color: var(--errIcon);
+    position: absolute;
+    right: .8rem;
+    top: 55%;
+}
+.formcontato__input__icon-scs{
+    color: var(--scsIcon);
+    position: absolute;
+    right: .8rem;
+    top: 55%;
+}

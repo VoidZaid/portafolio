@@ -14,8 +14,8 @@
 }
 @media screen and (min-width: 992px) {
     .formcontato{
-        height: 500px;
-        padding: 5rem 0;
+        /* height: 500px; */
+        padding: 5rem 0 1rem;
     }
     .formcontato__contacto{
         display: flex;

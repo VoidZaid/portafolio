@@ -41,8 +41,10 @@
     <link rel="stylesheet" href="./css/gcontact/contact.css">
     <link rel="stylesheet" href="./css/gcontact/form-txt.css">
     <link rel="stylesheet" href="./css/gcontact/inputs.css">
+    <!-- MESSAGES ERROR -->
+    <link rel="stylesheet" href="./css/err-message.css">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
     <title> Mi Portafolio</title>
 </head>
 <body>
@@ -311,12 +313,28 @@
                     <h2 class="formcontato__title title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <input spellcheck="false" class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input spellcheck="false" class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input spellcheck="false" class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
-                        <textarea spellcheck="false" class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    <form class="formcontato__form" name="form" method="post" id="formContact">
+                        <div class="formcontato__input-con">
+                            <input data-num="0"  id="inputName" spellcheck="false" class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="formcontato__input-con">
+                            <input data-num="1" id="inputPass" spellcheck="false" class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                        </div>
+                        <div class="formcontato__input-con">
+                            <input data-num="2" id="inputAffair" spellcheck="false" class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
+                        </div>
+                        <div class="formcontato__input-con">
+                            <textarea data-num="3" spellcheck="false" class="formcontato__input formcontato__textarea" rows="5" cols="40" id="inputMessage" name="mensaje" placeholder="Mensaje"></textarea>
+                        </div>
+
+                        <p class="formcontato__err-message">
+                            <span class="material-icons-outlined">
+                                warning
+                            </span>
+                            <b>Error:</b> Por favor rellena el formulario correctamente
+                        </p>
+                        <!-- <input type="submit" class="formcontato__botao" value="Enviar mensaje"> -->
+                        <button type="submit" class="formcontato__botao" form="formContact">Enviar mensaje</button>
                     </form>
                 </div>
             </div>
@@ -327,13 +345,18 @@
             <div class="footer__rodape">
                 <p>Desarrollado por Void Zaid</p>
                 <p>2022</p>
+                <!-- <p class="formcontato__err-message">
+                    Verifica los datos por favor
+                </p> -->
             </div>
         </footer>
 </div>
  <!-- Script del documento JavaScript -->
-<script src="./js/validacion.js"></script>
+
 <script src="./js/menu-responsive.js"></script>
 <script src="./js/change-icon.js"></script>
 <script src="./js/root-style.js"></script>
+
+<script src="./js/validacion.js"></script>
 </body>
 </html>
