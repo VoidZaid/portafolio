@@ -1,5 +1,3 @@
-
-
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
@@ -22,7 +20,13 @@
    --menuColorText: #C2E5F2;
 
    --iconColor: #2a7ae4;
+   --txtFontInput: #464646;
 
-   --errMessage : #e42a49;
-   --errMessageTxt : inherit;
+   --errMessage : #a71313;
+   --scsMessage : #023859;
+   --errMessageTxt : #C2E5F2;
+   --errIcon: #023859;
+   --scsIcon: #2E9AA6;
+
+   --border: #023859;
 }

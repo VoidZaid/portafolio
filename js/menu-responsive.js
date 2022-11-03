@@ -7,7 +7,7 @@ function showMenu(){
     menu_bg.style.display = "block";
 }
 function hideMenu(){
-    menu_list.style.right = "calc(100vw + 450px"
+    menu_list.style.right = "calc(100vw + 450px)"
     menu_bg.style.display = "none";
 }
 

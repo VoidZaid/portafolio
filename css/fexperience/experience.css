@@ -1,5 +1,6 @@
 .experience{
     padding: 2rem 0 0;
+    overflow: hidden;
     /* width: 100%; */
 }
 .experience__section__title{

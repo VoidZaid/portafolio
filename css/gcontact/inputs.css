@@ -16,7 +16,7 @@
     font-family: 'Raleway';
     font-size: 1.2rem;
     font-weight: 500;
-    color: var(--txtFont);
+    color: var(--txtFontInput);
     /* transition: all .5s ease-out; */
 }
 
@@ -31,6 +31,35 @@
 .formcontato__textarea{
     height: 7rem;
 }
+/* ************PARTE DE LA COMPROBACION *************** */
+.formcontato__input-message{
+    margin: 0;
+    position: absolute;
+    top: .8rem;
+    left: 0;
+    z-index: 100;
+
+    font-size: .8rem;
+    font-weight: 700;
+}
+.formcontato__input__icon-err{
+    color: var(--errIcon);
+    position: absolute;
+    right: .8rem;
+    top: 55%;
+}
+.formcontato__input__icon-scs{
+    color: var(--scsIcon);
+    position: absolute;
+    right: .8rem;
+    top: 55%;
+}
+
+.formcontato__input.border__err{
+    border: 1.5px solid var(--border);
+}
+/* ********************************************** */
+
 .formcontato__input::-webkit-input-placeholder, 
 .formcontato__textarea::-webkit-input-placeholder{
     color: #a2a2a2;
@@ -44,9 +73,17 @@
     width: 150px;
     margin: .5rem 0;
     background-color: var(--btnBg);
-    border:  1px solid var(--btnBg);
+    border:  none;
     color: white;
     font-size: 1rem;
+    cursor: pointer;
+    /* transition:  */
+    font-weight: 700;
+    transition:all .8s ease-in;  
+}
+.formcontato__botao:hover{
+    background-color: var(--hoverBtn);
+    transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {

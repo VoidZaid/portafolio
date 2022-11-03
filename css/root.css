@@ -1,9 +1,3 @@
-/*CSS Reset / Normalize*/
-/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
-en las secciones señaladas */
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
-
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
@@ -26,9 +20,14 @@ coloque nas sessões indicadas*/
    --menuColorText: #daf2fd;
 
    --iconColor: #2a7ae4;
+   --txtFontInput: #464646;
 
    --errMessage : #C94E4D;
-   --errMessageTxt : #000;
+   --scsMessage : #2E9AA6;
+   --errMessageTxt : #daf2fd;
    --errIcon: #C94E4D;
    --scsIcon: #14ef4b;
+
+   --border: #C94E4D;
+   --hoverBtn:var(--scsMessage)
 }

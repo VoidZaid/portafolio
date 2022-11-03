@@ -1,6 +1,7 @@
 .experiencie__box{
     width: 85%;
     margin: 0 auto 4rem;
+    /* overflow: hidden ; */
 }
 .experience__img{
     width: 100%;
@@ -18,12 +19,22 @@
     border: 1px solid var(--btnBg);
     color: var(--btnBg);
     font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.experiencia__botao--repo:hover{
+    transform: scale(1.1);
 }
 .experience__botao--demo{
     background-color: var(--btnBg);
     border:  1px solid var(--btnBg);
     color: white;
     margin-left: .5rem;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.experience__botao--demo:hover{
+    transform: scale(1.1);
 }
 .experience__botao--demo, .experiencia__botao--repo{
     padding: .7rem;

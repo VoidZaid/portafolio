@@ -9,6 +9,12 @@
     font-size: 1.2rem;
     color: var(--txtResalt);
 }
+.title__network__item{
+    transition: all .3s ease;
+}
+.title__network__item:hover{
+    transform: scale(1.2);
+}
 
 /*Tablet*/
 @media (min-width: 768px) {

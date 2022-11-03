@@ -2,6 +2,7 @@
 .menu{
     position: sticky;
     top: 0;
+    z-index: 1000;
 
     display: flex;
     justify-content: space-between;
@@ -16,6 +17,7 @@
     background-color: var(--menuBgPc);
     
     border-bottom: 1px solid var(--menuBg);
+
 }
 .menu__logo{
     width: 6rem;
@@ -45,7 +47,7 @@
     position: fixed;
     top: 0;
     right: calc(100vw + 450px);
-    z-index: 10;
+    z-index: 100;
     /* overflow: hidden; */
 
     width: 75vw;
@@ -90,11 +92,13 @@
 @media screen and (min-width: 768px) {
     .menu{
         padding: 0 2rem;
+        margin: 0;
     }
 }
 @media screen and (min-width: 992px) {
     .menu{
         padding: 0 2rem;
+        margin: 0;
     }
     .menu__icon{
         display: none;

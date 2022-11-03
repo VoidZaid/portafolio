@@ -44,6 +44,10 @@
     <!-- MESSAGES ERROR -->
     <link rel="stylesheet" href="./css/err-message.css">
 
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./aos-master/dist/aos.css">
+
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
     <title> Mi Portafolio</title>
 </head>
@@ -77,9 +81,9 @@
 
 
     <!-- Sección del Header/Title/Hero -->
-    <section class="title container">
+    <section class="title container" data-aos="fade-in">
         <div class="title__div">
-            <img class="title__profile" src="assets\profile.png">
+            <img data-aos="fade-up" data-aos-duration="1500" class="title__profile" src="assets\profile.jpg">
             <div class="title__container">
                 <h2 class="title__bio title">Hola, mi nombre es René Diaz y construyo paginas web</h2>
                 <h3 class="title__subsection">Soy técnico en Administracion pero encontre mi verdadera pasión en la programacion, actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
@@ -97,29 +101,16 @@
 
     
     <!-- Sección sobre mi -->
-    <section class="about " id="sobre-mi">
+    <section data-aos="fade-right" data-aos-duration="1500" class="about " id="sobre-mi">
         <div class="about__container container">
             <h3 class="about__title title">Sobre mi</h3>
-            <p class="about__paragraph">Hola, mi nombre es Rene Paul pero mas me llaman por mi segundo nombre Paul, tengo 24 años y soy de Perú. Estudie administracion pero mi pasion esta en la programacion, actualmente participo en el programa ONE de Oracle, en este programa aprendi bastante y di mis primeros pasos en:
+            <p class="about__paragraph">Hola, me llamo Paul, tengo 24 años y soy de Perú. Soy técnico en administración pero descubrí mi verdadera pasión esta en la programacion, actualmente participo en el programa ONE de Oracle, en este programa aprendi bastante y di mis primeros pasos en:
                 <ul>
                     <li class="list-icon">HTML</li>
-                    <li class="list-icon">CSS
-                        <ul>
-                            <li>BEM</li>
-                            <li>Atomic desing</li>
-                            <li>Flex box</li>
-                            <li>Grid</li>
-                        </ul>
-                    </li>
-                    <li class="list-icon">JavaScript
-                        <ul>
-                            <li>Logica de programacion</li>
-                            <li>Canvas</li>
-                            <li>Manipulacion del DOM</li>
-                        </ul>
-                    </li>
+                    <li class="list-icon">CSS</li>
+                    <li class="list-icon">JavaScript</li>
                 </ul>
-            Ademas de forma individual con cursos de Udemy aprendi Java basico y PHP realizando un pequeño proyecto CRUD el cual esta en mi repositorio GitHub.
+            Ademas de forma individual con cursos de Udemy aprendi Java basico y PHP realizando un pequeños proyectos. Actualmente en busca de mi primer trabajo como desarrollador.
             </p>
         </div>
     </section>
@@ -128,28 +119,28 @@
     <section class="skills container" id="skills">
         <h3 class="skills__title title">Skills</h3>
             <div class="skills__line">
-                <div class="skills__box">
+                <div class="skills__box" data-aos="fade-up">
                     <ul>
                         <li class="skills__img"><img src="assets\htlm.png"></li>
                         <li class="skills__name"> HTML 5</li>
                     </ul>
                 </div>
 
-                <div class="skills__box">
+                <div class="skills__box" data-aos="fade-up" data-aos-duration="1100">
                     <ul>
                         <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
                         <li class="skills__name">CSS</li>
                     </ul>
                 </div>
 
-                <div class="skills__box">
+                <div class="skills__box" data-aos="fade-up" data-aos-duration="1200">
                     <ul>
                         <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
                         <li class="skills__name">Javascript</li>
                     </ul>
                 </div>
 
-                <div class="skills__box">
+                <div class="skills__box" data-aos="fade-up" data-aos-duration="1300">
                     <ul>
                         <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
                         <li class="skills__name">PHP</li>
@@ -163,7 +154,7 @@
         <h3 class="hobbies__title title">Hobbies</h3>
             <div class="hobbies__line">
 
-                <div class="hobbies__box">
+                <div class="hobbies__box" data-aos="fade-up">
                     <ul>
                         <li class="hobbies__img">
                             <span class="material-icons-outlined icon">
@@ -174,7 +165,7 @@
                     </ul>
                 </div>
 
-                <div class="hobbies__box">
+                <div class="hobbies__box" data-aos="fade-up" data-aos-duration="1100">
                     <ul>
                         <li class="hobbies__img">
                             <span class="material-icons-outlined icon">
@@ -185,7 +176,7 @@
                     </ul>
                 </div>
 
-                <div class="hobbies__box">
+                <div class="hobbies__box" data-aos="fade-up" data-aos-duration="1200">
                     <ul>
                         <li class="hobbies__img">
                             <span class="material-icons-outlined icon">
@@ -196,7 +187,7 @@
                     </ul>
                 </div>
 
-                <div class="hobbies__box">
+                <div class="hobbies__box" data-aos="fade-up" data-aos-duration="1300">
                     <ul>
                         <li class="hobbies__img">
                             <span class="material-icons-outlined icon">
@@ -207,7 +198,7 @@
                     </ul>
                 </div>
 
-                <div class="hobbies__box">
+                <div class="hobbies__box" data-aos="fade-up" data-aos-duration="1400">
                     <ul>
                         <li class="hobbies__img">
                             <span class="material-icons-outlined icon">
@@ -218,7 +209,7 @@
                     </ul>
                 </div>
 
-                <div class="hobbies__box">
+                <div class="hobbies__box" data-aos="fade-up" data-aos-duration="1500">
                     <ul>
                         <li class="hobbies__img">
                             <span class="material-icons-outlined icon">
@@ -236,7 +227,7 @@
         <h2 class="academic__title title" >Formación académica</h2>
         <div class="academic__courses">
 
-            <div class="academic__courses__box">
+            <div class="academic__courses__box" data-aos="fade-up-right" data-aos-duration="1500">
                 <ul class="academic__courses__list">
                     <!-- Pon el logotipo de la institución de formación -->
                     <li class="academic__courses__item__img"><img src="./assets/continental.svg"></li>
@@ -245,7 +236,7 @@
                 </ul>
             </div>
     
-            <div class="academic__courses__box">
+            <div class="academic__courses__box" data-aos="fade-up-left" data-aos-duration="1500">
                 <ul class="academic__courses__list">
                     <!--Pon el logotipo de la institución de formación -->
                     <li class="academic__courses__item__img"><img src="./assets/alura_logo.png"></li>
@@ -262,7 +253,7 @@
         <h2 class="experience__section__title title" >Experiencia Profesional</h2>
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="./assets/encriptador.png">
+            <img data-aos="fade-right" data-aos-duration="1500" class="experience__img" src="./assets/encriptador.png">
             <div class="experience__info">
                 <h2 class="experience__title">Encriptador de texto</h2>
                 <h3 class="experience__text">Es un challenge del programa ONE, el programa consiste en insertar texto y que este lo devuelva encriptado, asi mismo en la misma pagina se desencripta</h3>
@@ -276,7 +267,7 @@
 
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="./assets/ahorcado.png">
+            <img data-aos="fade-left" data-aos-duration="1500" class="experience__img" src="./assets/ahorcado.png">
             <div class="experience__info">
                 <h2 class="experience__title">Juego del ahorcado con JavaScript</h2>
                 <h3 class="experience__text">El juego tambien es parte de los challenges del programa ONE, este consiste en desarrollar desde cero el juego del ahorcado dando oportunidades y posibilidad de escoger una palabra para el juego</h3>
@@ -290,7 +281,7 @@
         
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="./assets/todolist.png">
+            <img data-aos="fade-right" data-aos-duration="1500" class="experience__img" src="./assets/todolist.png">
             <div class="experience__info">
                 <h2 class="experience__title">To Do List</h2>
                 <h3 class="experience__text">Para poder repasar conceptos de la manipulacion del DOM, hice este pequeño proyecto y logre consolidar conocimientos sobre dicho tema</h3>
@@ -315,23 +306,20 @@
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                     <form class="formcontato__form" name="form" method="post" id="formContact">
                         <div class="formcontato__input-con">
-                            <input data-num="0"  id="inputName" spellcheck="false" class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                            <input name="nombre" data-num="0"  id="inputName" spellcheck="false" class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
                         </div>
                         <div class="formcontato__input-con">
-                            <input data-num="1" id="inputPass" spellcheck="false" class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                            <input name="correo" data-num="1" id="inputPass" spellcheck="false" class="formcontato__input" type="email" name="email" placeholder="E-mail">
                         </div>
                         <div class="formcontato__input-con">
-                            <input data-num="2" id="inputAffair" spellcheck="false" class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
+                            <input name="asunto" data-num="2" id="inputAffair" spellcheck="false" class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
                         </div>
                         <div class="formcontato__input-con">
-                            <textarea data-num="3" spellcheck="false" class="formcontato__input formcontato__textarea" rows="5" cols="40" id="inputMessage" name="mensaje" placeholder="Mensaje"></textarea>
+                            <textarea disabled name="descripcion" data-num="3" spellcheck="false" class="formcontato__input formcontato__textarea" rows="5" cols="40" id="inputMessage" name="mensaje" placeholder="Mensaje"></textarea>
                         </div>
 
-                        <p class="formcontato__err-message">
-                            <span class="material-icons-outlined">
-                                warning
-                            </span>
-                            <b>Error:</b> Por favor rellena el formulario correctamente
+                        <p class="" id="formcontato__message">
+                            
                         </p>
                         <!-- <input type="submit" class="formcontato__botao" value="Enviar mensaje"> -->
                         <button type="submit" class="formcontato__botao" form="formContact">Enviar mensaje</button>
@@ -356,7 +344,12 @@
 <script src="./js/menu-responsive.js"></script>
 <script src="./js/change-icon.js"></script>
 <script src="./js/root-style.js"></script>
-
 <script src="./js/validacion.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="./aos-master/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
